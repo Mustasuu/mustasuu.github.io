@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Aderfia Oy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .nav-main {
+            background-color: #1a1a2e;
+            color: #e94560;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .nav-main a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-main a:hover {
+            color: #0f3460;
+        }
+
+        .content {
+            margin: 20px;
+            width: 80%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Aderfia Oy</h1>
+    <nav class="nav-main">
+        <a href="index.html">Etusivu</a>
+        <a href="second.html">Tapahtumatuotanto</a>
+        <a href="third.html">Myynti ja Markkinointi</a>
+        <a href="contact.html">Yhteystiedot</a>
+    </nav>
+    <div class="content">
+        <h2>Tervetuloa Aderfia Oy:n kotisivulle!</h2>
+        <p>Aderfia Oy on tapahtumatuotannon, myynnin ja markkinoinnin asiantuntija. Yrityksemme nimi, Aderfia, tarkoittaa kreikaksi 'veljeksiä', ja se kuvastaa sitä tiivistä yhteistyötä ja yhteisöllisyyttä, joka on toimintamme ytimessä. Tarjoamme asiakkaillemme korkealaatuisia palveluita, jotka auttavat heitä saavuttamaan tavoitteensa ja kasvattamaan liiketoimintaansa.</p>
+    </div>
+</body>
+</html>
